@@ -45,15 +45,21 @@ a:hover {
 }
 .hero-container{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    padding: 24px;
+    margin: 35px;
 }
 .main-img{
     height: 500px;
-    width: 400px;
+    width: 300px;
     display: flex;
     align-items: flex-start;
     justify-self: right;
+}
+.main-img > img{
+    height: 500px;
+    width: 400px;
 }
 .hero{
     display: flex;
@@ -68,8 +74,5 @@ button{
     border: #f9faf8 solid 2px;
     border-radius: 10px;
 }
-img{
- 
 
-}
     
