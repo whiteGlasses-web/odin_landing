@@ -1,78 +1,115 @@
 @import url(https://fonts.google.com/specimen/Roboto);
-*{
-    font-family: "Roboto",sans-serif;
+
+* {
+    font-family: "Roboto", sans-serif;
 }
-.main-section{
+
+.main-section {
     background-color: #1f2937;
 }
-header{
+
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #1f2937;
     padding: 14px;
-
 }
-.Logo{
+
+.Logo {
     font-size: 24px;
     color: #f9faf8;
 }
-ul{
+
+ul {
     list-style: none;
     margin: 5px;
     padding: 0;
 }
-li{
-    display: inline; 
+
+li {
+    display: inline;
     font-size: 18px;
 }
-a { color:#e5e7eb;
-    text-decoration:none;
- }
-    
-a:hover {
-    color:#e5e7eb;
-    text-decoration : none;
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
 }
-.hero > h1{
+
+a:hover {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.hero>h1 {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
 }
-.hero-text{
+
+.hero-text {
     font-size: 18px;
-    color:#e5e7eb;
+    color: #e5e7eb;
 }
-.hero-container{
+
+.hero-container {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     align-items: center;
     padding: 24px;
     margin: 35px;
 }
-.main-img{
+
+.main-img {
     height: 500px;
     width: 300px;
     display: flex;
     align-items: flex-start;
     justify-self: right;
 }
-.main-img > img{
+
+.main-img>img {
     height: 500px;
     width: 400px;
+    justify-self: right;
+    
 }
-.hero{
+
+.hero {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    max-width: 50vw;
 }
-button{
+
+button {
     background-color: #3882f6;
     width: 100px;
     height: 40px;
     border: #f9faf8 solid 2px;
     border-radius: 10px;
 }
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.information > h1{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+.random-info{
+    border: #1f2937 solid 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    
+
+.quote{
+    background-color: #e5e7eb;
+
+}
